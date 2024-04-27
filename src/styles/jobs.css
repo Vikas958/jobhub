@@ -1,0 +1,103 @@
+.search {
+  padding: 20px 0px;
+  margin: 100px 50px 0 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.searches {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > input {
+    border: none;
+    outline: none;
+  }
+}
+
+.responsive-search {
+  display: none;
+}
+
+.management {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card h3 {
+  text-align: center;
+}
+.card {
+  display: flex;
+  width: 300px;
+  box-shadow: 10px 10px 5px lightblue;
+  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+}
+.jobrole {
+  display: flex;
+  justify-content: space-between;
+}
+.now {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.now svg {
+    margin-bottom: 7px; 
+  }
+.card btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.management h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+  .search {
+    display: none;
+  }
+  .responsive-search {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    background-color: rgb(243, 247, 249);
+    > .search-container {
+        background-color: #dad4d4;
+        border-bottom: 1px black;
+      > input {
+        border: 0;
+        outline: 0;
+        margin-bottom: 1px;
+      }
+    }
+
+    > button {
+      padding: 3px 65px;
+      background-color: #2a68ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+  .cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
