@@ -58,8 +58,34 @@
   }
   .home2{
     flex-direction: column;
+    padding: 10px;
     >img{
       width: 100%;
+    }
+    .home3{
+      div{
+        width: 100%;
+      }
+      
+    }
+  }
+}
+@media  screen and (max-width:580px) {
+  .home2{
+    padding: 0 20px;
+    font-size: 10px;
+    /* background-color: red; */
+    >div{
+      font-size: 20px;
+    }
+  }
+  .home3{
+    font-size: 20px;
+    >h1{
+      font-size: 22px;
+    }
+    >div{
+      max-width: 100%;
     }
   }
 }

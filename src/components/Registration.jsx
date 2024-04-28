@@ -131,7 +131,7 @@ const Registration = () => {
             placeholder="content creator,developer .."
           />
         </div>
-        <div className="form-row">
+        <div className="form-row city-state-zip">
           <div className="form-group col-md-6">
             <label htmlFor="inputCity">City</label>
             <input type="text" className="form-control" id="inputCity" />
