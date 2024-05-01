@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Registration from "./components/Registration";
 import Login from "./components/Login";
 import Home from "./components/Home";
+import Signup from "./components/Signup";
+import Signup2 from "./components/Signup2";
 import "./App.css";
 import "./styles/nav.css";
 import "./styles/search.css";
@@ -16,6 +18,8 @@ import "./styles/register.css";
 import "./styles/login.css";
 import "./styles/home.css";
 import "./styles/footer.css";
+import "./styles/signup1.css";
+import "./styles/signup2.css";
 const App = () => {
   return (
     <Router>
@@ -25,6 +29,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Registration />} />
         <Route path="/jobs" element={<Jobs />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup2" element={<Signup2 />} />
       </Routes>
       <Footer />
     </Router>

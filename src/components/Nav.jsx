@@ -1,7 +1,4 @@
-// Nav.js
-// import React from 'react';
-// import React, { useEffect } from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "../styles/nav.css";
@@ -72,7 +69,7 @@ const Nav = () => {
             </li>
             <li className="nav-item font-color">
               <Link to="/register" className="nav-link active">
-                <button className="mybtn">Register</button>
+                <button className="mybtn">sign Up</button>
               </Link>
             </li>
           </ul>

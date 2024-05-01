@@ -6,13 +6,13 @@ const Home = () => {
     <div>
       <div className="intro font-medium">
         <main>
-          <h1 style={{ textAlign: "center" }}>
+          <h1 className="font-bold" style={{ textAlign: "center" }}>
             Chase your passion and land your{" "}
             <span className="">ideal job.</span>
           </h1>
           {/* <p>solution all to your problems</p> 
           <h1>Easily find great Talent</h1> */}
-          <p>
+          <p className="font-medium">
             Welcome to JobHub, where opportunities converge and dreams take
             flight. Our platform serves as a dynamic bridge, connecting talented
             job seekers with esteemed recruiters.
