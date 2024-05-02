@@ -20,11 +20,11 @@ const Jobs = () => {
         <div className="search-container">
           <FaLocationDot className="search-icon" />
           <input type="text" placeholder="Search place" />
-
         </div>
         <button>Search</button>
-
       </div>
+
+
       <div className="search">
         <div className="container-fluid searches d-flex">
           <div className="row d-flex">
@@ -68,7 +68,7 @@ const Jobs = () => {
                   <input
                     className="form-control me-2"
                     type="search"
-                    placeholder="    Search location"
+                    placeholder="Search location"
                     aria-label="Search"
                   />
                 </div>
@@ -86,7 +86,6 @@ const Jobs = () => {
           </div>
         </div>
       </div>
-
       <div className="jobs">
         <div className="management">
           <div className="font-bold">
