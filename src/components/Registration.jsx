@@ -1,23 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../styles/register.css"
 const Registration = () => {
   return (
     <div className="registers">
       <div className="reg1">
-       <h2 className="font-bold"> For Recruiters</h2>
-       <Link to={"/signup2"} >
-         <button type="button" class="btn btn-primary btn-lg font-medium">Sign Up</button>
+        <h2 className="font-bold"> For Recruiters</h2>
+        <Link to={"/signup2"} >
+          <button type="button" class="btn btn-primary btn-lg font-medium">Sign Up</button>
         </Link>
-       <p className="font-regular">Already Registered? <strong><Link to={"/login"}>Login</Link></strong> here</p>
-       </div>
-       <div className="reg2">
-       <h2 className="font-bold"> For Job seekers</h2>
-       <Link to={"/signup"} >
-         <button type="button" class="btn btn-primary btn-lg font-medium">Sign Up</button>
+        <p className="font-regular">Already Registered? <strong><Link to={"/login"}>Login</Link></strong> here</p>
+      </div>
+      <div className="reg2">
+        <h2 className="font-bold"> For Job seekers</h2>
+        <Link to={"/signup"} >
+          <button type="button" class="btn btn-primary btn-lg font-medium">Sign Up</button>
         </Link>
-       <p className="font-regular">Already Registered? <strong><Link to={"/login"}>Login</Link></strong> here</p>
-       </div>
+        <p className="font-regular">Already Registered? <strong><Link to={"/login"}>Login</Link></strong> here</p>
+      </div>
     </div>
     // <div className="registers">
     //   <div className="register1">
